@@ -5,6 +5,7 @@ const controller =require("./controller");
 const router = Router();
 
 router.get('/', controller.getStudents);
+// router.get('/',controller.getinfo);
 router.post("/",controller.addStudent);
 router.get("/:id",controller.getStudentsById);
 router.put("/:id",controller.updateStudent);
